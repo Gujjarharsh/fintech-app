@@ -12,7 +12,6 @@ import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.fintech.databinding.ActivityMainBinding
-import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
@@ -45,9 +44,7 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
-        val headerView = navView.getHeaderView(0)
-        val userNameTextView = headerView.findViewById<TextView>(R.id.tvUserName)
-        userNameTextView.text = "Akash Arya"
+        // No overflow menu; a circular profile image is shown as toolbar action view
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

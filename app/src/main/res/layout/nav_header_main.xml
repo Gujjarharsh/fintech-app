@@ -11,20 +11,9 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="72dp"
-        android:layout_height="72dp"
-        android:layout_gravity="start"
-        android:contentDescription="@string/nav_header_desc"
-        android:scaleType="centerCrop"
-        app:srcCompat="@drawable/fin_flip_logo" />
-
-    <TextView
-        android:id="@+id/tvUserName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/nav_header_vertical_spacing"
-        android:text="@string/nav_header_title"
-        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-        android:textColor="@android:color/black" />
+        android:contentDescription="@string/nav_header_desc"
+        app:srcCompat="@drawable/fin_flip_logo" />
 
 </LinearLayout>

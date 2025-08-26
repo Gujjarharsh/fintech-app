@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_dth_recharge"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="DTH Recharge" />
+        <item
+            android:id="@+id/nav_mobile_recharge"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Mobile Recharge" />
+        <item
+            android:id="@+id/nav_bbps"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="BBPS" />
+        <item
+            android:id="@+id/nav_payout"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Payout" />
+        <item
+            android:id="@+id/nav_dmt"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="DMT" />
+        <item
+            android:id="@+id/nav_loan"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Loan Form" />
+        <item
+            android:id="@+id/nav_aeps"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="AEPS" />
+        <item
+            android:id="@+id/nav_aeps_onboard"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="AEPS Onboard" />
+
+    </group>
+</menu>

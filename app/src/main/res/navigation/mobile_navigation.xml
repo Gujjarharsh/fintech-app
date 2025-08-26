@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.fintech.ui.dashboard.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/nav_dth_recharge"
+        android:name="com.fintech.ui.Recharge.dth.DthFragment"
+        android:label="DTH Recharge"
+        tools:layout="@layout/fragment_dth" />
+
+    <fragment
+        android:id="@+id/nav_mobile_recharge"
+        android:name="com.fintech.ui.Recharge.mobile.MobileRechargeFragment"
+        android:label="Mobile Recharge"
+        tools:layout="@layout/fragment_mobile_recharge" />
+    <fragment
+        android:id="@+id/nav_bbps"
+        android:name="com.fintech.ui.bbps.BbpsFragment"
+        android:label="BBPS"
+        tools:layout="@layout/fragment_bbps" />
+
+    <fragment
+        android:id="@+id/nav_payout"
+        android:name="com.fintech.ui.payout.PayoutFragment"
+        android:label="Payout"
+        tools:layout="@layout/fragment_payout" />
+
+    <fragment
+        android:id="@+id/nav_dmt"
+        android:name="com.fintech.ui.dmt.DmtFragment"
+        android:label="DMT"
+        tools:layout="@layout/fragment_dmt" />
+    <fragment
+        android:id="@+id/nav_loan"
+        android:name="com.fintech.ui.loanfoam.LoanFormFragment"
+        android:label="Loan Form"
+        tools:layout="@layout/fragment_loan_form" />
+
+    <fragment
+        android:id="@+id/nav_aeps"
+        android:name="com.fintech.ui.aeps.AepsFragment"
+        android:label="AEPS"
+        tools:layout="@layout/fragment_aeps" />
+
+    <fragment
+        android:id="@+id/nav_aeps_onboard"
+        android:name="com.fintech.ui.aeps_onboard.AepsOnboardFragment"
+        android:label="AEPS Onboard"
+        tools:layout="@layout/fragment_aeps_onboard" />
+</navigation>
